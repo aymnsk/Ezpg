@@ -1,7 +1,43 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
 }
 
-.card-title {
-  font-weight: bold;
+header {
+  background: #004aad;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+  text-align: center;
+}
+
+.listing {
+  background: white;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+input, select, button {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
 }
